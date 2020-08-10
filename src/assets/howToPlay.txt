@@ -1,0 +1,30 @@
+<b>1)</b> Both player pick their number for their
+    opponent to try find. <br>
+    This number should be 4 digit number (between 1000 and 9999) with different digits 
+    (e.g. you cant pick 1213 number because number "1" used two times in this 4 digit number.<br>
+    <b>2)</b> Game starts and both player make guesses
+    respectively and get results for those guesses.
+    Each player have 1 guess chance at his/her turn
+    regardless their result. <br>
+    <b>3)</b> At result  + {number} means for {number} of digits both digit place and value
+    are correct. - {number} means for {number} of digits digit value is true but digit
+    place is wrong. Dont worry if you couldn't understand this yet. Lets make an example and you
+    will understand the rules way better: <br>
+    We assume Player1 picked <b>1234</b> as his/her number and Player2 making his/her
+    guesses and explain results for that guesses.Player 2 is making first guess as
+    <b>5678</b>. In this case result will be <b>+0 -0</b> .
+    Because for all digits value and place are wrong.
+    This means in this 4 digit number there isn't <b>5,6,7,8</b> numbers.
+    So <b>1,2,3,4,9,0</b>
+    remained and he will do his next guess. Player 2's second guess is <b>9124</b> .
+    And the result will be <b>"+1 -2"</b>. <b>+1</b> is for number <b>"4"</b>  .
+    Both digit value and place is true. <b>"-2"</b> is for numbers <b>"1"</b> and
+    <b>"2"</b> .
+    They exist in the number but their places are wrong.
+    Player 2's third guess is <b>1294</b> . And the result for this will be
+    <b>"+3 -0"</b>.
+    For number <b>"1"</b> ,<b>"2"</b> and <b>"4"</b>.
+    Both their places and value is true. <br>
+    <b>4)</b> I believe you understood rules just enough. With time your tactics and deep
+    understanding will progress dont worry. <br>
+    <b>5)</b> Lets start to the Game and Have Fun.
