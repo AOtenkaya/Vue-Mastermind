@@ -1,0 +1,28 @@
+﻿<b>1)</b> İki oyuncu da rakibinin bulmaya çalışacağı kendi numarasını belirler. 
+    Bu numara 4 basamaklı (1000 ile 9999 arasında) ve 
+    rakamları birbirinden farklı olmalıdır. Örneğin 1213 sayı
+    sayı olarak seçilemez çünkü 1 rakamı içinde iki defa kullanılmıştır.<br>
+    <b>2)</b> Oyun başlar ve iki oyuncu da sırayla tahminlerini yaparlar
+    (bir oyuncu durum ne olursa olsun üst üste 2 tahmin yapamaz) <br>
+    <b>3)</b> Yapılan tahminler Guesses(tahminler) kısmında o tahminin sonucu ise 
+    Results(Sonuçlar) kısmında
+    gözükür. Result kısmında + {sayı} ve - {sayı} şeklinde iki adet sayı bulunur. + ile ifade
+    edilen değer hem basamak değeri hem de rakamı doğru olan değerleri - ile ifade edilen sayı ise
+    sayının doğru ama basamağının yanlış olduğunu ifade eder. <br> Biraz kafanız 
+    karıştıysa endişelenmenize gerek yok. Şimdi bi örnekle çok daha iyi anlayacaksınız: <br>
+    1.oyuncunun sayı olarak <b>1234</b>'ü  seçtiğini ve ikinci oyuncunun bu sayıyı bulmak için ,
+    tahminler yaptığını varsayıp tahmin sonuçlarını beraber inceleyelim. 
+    İlk tahmin olarak <b>5678</b> tahminini yaptığını varsayalım
+    Bunun sonucu <b>+0 -0 </b> olacak çünkü <b>5,6,7 ve 8</b> sayılarının hiçbiri 1.oyuncunun
+    tuttuğu sayının içinde yoklar. Böylece geriye <b>1, 2, 3, 4, 9 ve 0</b> rakamları kalıyor
+    2.oyuncu sıra ona tekrar geldiğinde <b>9124</b> tahminini yaptığını varsayalım. Bunun sonucu da
+    <b>+1 -2</b> olacak. <b>+1</b> kısmı 4 rakamının sonucu olarak geliyor çünkü 2.oyuncunun tuttuğu
+    sayı hem 4 içeriyor hem de 4'ün yeri doğru (birler basamağında). <b>-2</b> kısmı ise
+    <b>1 ve 2</b> sayılarından geliyor çünkü 2.oyuncunun sayısının içinde 1 de 2 de var ama
+    tahminde yerleri yani basamakları yanlış.
+    Üçüncü tahmin olarak <b>1294</b> yapıyor ve sonuç <b>+3 -0 oluyor</b>
+    +3 sayının hem basamak hem de sayı değeri doğru şekilde bulunduğu manasına geliyor.
+    +4 -0 a ulaşan yani rakibinin 4 basamaklı sayısını ilk doğru tahmin eden oyunu kazanıyor. <br>
+    <b>4)</b> Umarız örneğimizin kuralları kavramanıza faydası olmuştur. Oyuna dair anlayış ve 
+    taktikler oynadıkça daha iyi kavranılıp gelişeceğinden, endişelenmenize gerek yok. <br>
+    <b>5)</b> Şimdi oyuna başlayıp eğlenme ve kazanma zamanı.
