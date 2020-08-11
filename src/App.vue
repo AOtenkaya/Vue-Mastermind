@@ -470,7 +470,7 @@ export default {
             v-model="secondPlayerGuess"
             :disabled="disableGuess2"
             ref="secondPlayerGuessField"
-            @keydown.enter="makeGuessSecondPlayer"
+            @keyup.enter="makeGuessSecondPlayer"
             ></v-text-field>
             <v-flex xs5>
               <strong style="color:white">Guesses</strong>
