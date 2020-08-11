@@ -34,7 +34,6 @@ export default {
     secondPlayer: '2nd Player',
     dialog: false,
     rules: '',
-    translate: '<h1>A</h1>',
     nameRules: {
       required: (value) => !!value || 'Required.',
       counter: (value) => value.length <= 20 || 'Max 20 characters',
@@ -67,8 +66,6 @@ export default {
       { no: 8, color: 'white' },
       { no: 9, color: 'white' },
     ],
-    a: '1324',
-    b: true,
   }),
   mounted() {
     this.rules = this.howToPlay;
@@ -170,6 +167,7 @@ export default {
       });
       this.disableGuess1 = false;
       this.disableGuess2 = true;
+
       if (this.plusResult === 4) {
         this.winner = this.secondPlayer;
         // eslint-disable-next-line no-alert
