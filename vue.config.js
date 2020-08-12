@@ -3,5 +3,7 @@ module.exports = {
   transpileDependencies: [
     'vuetify',
   ],
-  publicPath: '/Vue-Mastermind/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/Vue-Mastermind/'
+    : '/',
 };
