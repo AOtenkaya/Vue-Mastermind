@@ -209,7 +209,7 @@ export default {
         style="background-color:#262626">
         <v-flex xs3 style="text-align:center;margin:75px 40px 20px 40px">
           <br><br>
-          <h2 style="color:#30cb00"> {{firstPlayer}} : {{winCounterFirstPlayer}}
+          <h2 style="color:#549b50"> {{firstPlayer}} : {{winCounterFirstPlayer}}
           <br><br> Enter Your Name and Number Here <br><br>
           </h2>
           <v-layout row wrap justify-center>
@@ -264,7 +264,7 @@ export default {
               width="725"
               >
               <v-card>
-                <v-card-title class="green">
+                <v-card-title style="background-color:#549b50">
                   How To Play MASTERMIND
                   <v-layout row wrap justify-end>
                     <v-flex mr-1 xs1>
@@ -305,7 +305,7 @@ export default {
 
         <v-flex xs3 style="text-align:center;margin:75px 40px 20px 40px;">
           <br><br>
-          <h2 style="color:red"> {{secondPlayer}} : {{winCounterSecondPlayer}}
+          <h2 style="color:#ff3737"> {{secondPlayer}} : {{winCounterSecondPlayer}}
             <br><br> Enter Your Name and Number Here <br><br></h2>
           <v-layout row wrap justify-center="">
             <v-flex xs6>
@@ -338,7 +338,7 @@ export default {
 
       <v-layout v-if="gameStatus === 'game started'" row wrap text-center justify-space-between
       fill-height style="background-color:#262626">
-        <v-flex xs2 style="background-color:green;margin:50px;padding:30px">
+        <v-flex xs2 style="background-color:#549b50;margin:50px;padding:30px;border-radius:15px">
           <v-layout row wrap justify-space-between>
             <v-text-field
             dark
@@ -374,7 +374,7 @@ export default {
         </v-flex>
 
         <v-flex xs2 style="margin:30px">
-          <h1 style="color:green;text-align:center">
+          <h1 style="color:#549b50;text-align:center">
             {{firstPlayer}} : {{winCounterFirstPlayer}}
           </h1><br>
           <v-layout column wrap>
@@ -443,7 +443,7 @@ export default {
         </v-flex>
 
         <v-flex xs2 style="margin:30px;text-align:center">
-          <h1 style="color:red;"> {{secondPlayer}} : {{winCounterSecondPlayer}} </h1> <br>
+          <h1 style="color:#ff5757;"> {{secondPlayer}} : {{winCounterSecondPlayer}} </h1> <br>
           <v-layout column wrap>
             <v-flex v-for="number in numbers" :key="number.no" xs1>
               <v-btn @click="changeColor(number)" class="ma-2" fab small :color="number.color">
@@ -453,7 +453,7 @@ export default {
           </v-layout>
         </v-flex>
 
-        <v-flex xs2 style="background-color:#d10a0a;margin:50px;padding:30px">
+        <v-flex xs2 style="background-color:#ff2e2e;margin:50px;padding:30px;border-radius:15px">
           <v-layout row wrap justify-space-between>
             <v-text-field
             dark
