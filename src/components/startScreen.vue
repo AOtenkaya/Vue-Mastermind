@@ -58,7 +58,7 @@ export default {
         style="background-color:#262626">
         <v-flex xs3 style="text-align:center;margin:75px 40px 20px 40px">
           <br><br>
-          <h2 style="color:#30cb00"> {{ players.firstPlayer.name }} : {{winCounters.firstPlayer}}
+          <h2 style="color:#549b50"> {{ players.firstPlayer.name }} : {{winCounters.firstPlayer}}
           <br><br> Enter Your Name and Number Here <br><br>
           </h2>
           <v-layout row wrap justify-center>
@@ -154,7 +154,7 @@ export default {
 
         <v-flex xs3 style="text-align:center;margin:75px 40px 20px 40px;">
           <br><br>
-          <h2 style="color:red"> {{players.secondPlayer.name}} : {{winCounters.secondPlayer}}
+          <h2 style="color:#ff3737"> {{players.secondPlayer.name}} : {{winCounters.secondPlayer}}
             <br><br> Enter Your Name and Number Here <br><br></h2>
           <v-layout row wrap justify-center>
             <v-flex xs6>

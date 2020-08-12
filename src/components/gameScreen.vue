@@ -183,7 +183,7 @@ export default {
 <template>
   <v-layout row wrap text-center justify-space-between
       fill-height style="background-color:#262626">
-        <v-flex xs2 style="background-color:green;margin:50px;padding:30px">
+        <v-flex xs2 style="background-color:#549b50;margin:50px;padding:30px;border-radius:15px">
           <v-layout row wrap justify-space-between>
             <v-text-field
             dark
@@ -219,7 +219,7 @@ export default {
         </v-flex>
 
         <v-flex xs2 style="margin:30px">
-          <h1 style="color:green;text-align:center">
+          <h1 style="color:#549b50;text-align:center">
             {{players.firstPlayer.name}} : {{winCounters.firstPlayer}}
           </h1><br>
           <v-layout column wrap>
@@ -288,7 +288,7 @@ export default {
         </v-flex>
 
         <v-flex xs2 style="margin:30px;text-align:center">
-          <h1 style="color:red;">{{players.secondPlayer.name}} : {{winCounters.secondPlayer}}</h1>
+          <h1 style="color:#ff3737;">{{players.secondPlayer.name}}:{{winCounters.secondPlayer}}</h1>
           <br>
           <v-layout column wrap>
             <v-flex v-for="number in numbers" :key="number.no" xs1>
@@ -299,7 +299,7 @@ export default {
           </v-layout>
         </v-flex>
 
-        <v-flex xs2 style="background-color:#d10a0a;margin:50px;padding:30px">
+        <v-flex xs2 style="background-color:#ff3737;margin:50px;padding:30px;border-radius:15px">
           <v-layout row wrap justify-space-between>
             <v-text-field
             dark
